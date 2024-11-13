@@ -1,0 +1,21 @@
+app:
+  name: test4
+  namespace: test4-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/test4.git
+  org: janus-backstage
+  name: test4
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Quay
+  organization: janus-backstage
+  host: quay.io
+  name: test4
+  tag: latest
